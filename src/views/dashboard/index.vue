@@ -1,6 +1,5 @@
 <template>
   <div class="dashboard-container">
-  <el-button type="primary" @click="print">打印</el-button>
     <component :is="currentRole" />
   </div>
 </template>
@@ -18,8 +17,8 @@ export default {
       currentRole: 'adminDashboard'
     }
   },
-  methods:{ 
-    print(){
+  methods: {
+    print() {
 
     }
   },
